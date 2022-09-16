@@ -1,0 +1,17 @@
+{
+  "name": "track-the-employee",
+  "version": "1.0.0",
+  "description": "just track them to hell",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3",
+    "console.table": "^0.10.0"
+  }
+}
