@@ -1,1 +1,10 @@
 USE employee_db;
+
+INSERT INTO departments (department, ID)
+VALUES("leader",01), ("agent",02);
+
+INSERT INTO roles(title,id,department, salary)
+VALUES("leader", 01, "leader", 9999), ("special_agent", 02, "agent", 5000);
+
+INSERT INTO employees(id, first_name, last_name, title, department, salary, manager_ID)
+VALUES (01, "Sam", "Wesker", "leader", "leader", 9999), (02, "Tom", "Redfield", "special_agent", "agent", 5000, 01);
