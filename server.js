@@ -18,8 +18,7 @@ connection.connect((err) => {
 });
 
 function start() {
-    inquirer
-        .prompt({
+    inquirer.prompt({
             name: 'search',
             type: 'list',
             message: 'what you gonna do?',
